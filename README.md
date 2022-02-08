@@ -1,3 +1,13 @@
+# debug electron-packager using electron-quick-start
+```bash
+# Install dependencies
+npm install
+# Build app
+npx electron-packager . --out out test --platform=linux --arch=x64 --app-version=99
+# Run app
+/out/test-linux-x64/test
+```
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
